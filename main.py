@@ -1,6 +1,3 @@
-# toaster = win10toast.ToastNotifier()
-# toaster.show_toast("ALARM", f"{real}", duration=5)
-
 import win10toast #for notification
 import datetime
 from tkinter import *  # FOR GUI
@@ -8,7 +5,6 @@ from twilio.rest import Client # FOR MESSAGE SENDING
 import easyocr # FOR EXTRACTING TEXT FROM THE IMAGE
 import cv2     # FOR COMPUTER VISION
 from PIL import ImageTk, Image # Image compressor
-
 
 sid="ACf026f2aef2b48ac3ad977e517d826ea4"  #CREDENTIAL OF TWILIO
 auttoken="76f27b562a5a1d835ffcb9bd4b620665" ##REDENTIAL OF TWILIO
